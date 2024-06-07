@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Partes de una Computadora o Hardware</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f1d7;
+            color:#080c11;
+        }
+        header {
+            background-color: #f2f1f7;
+            color: rgb(15, 12, 20);
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            background-color: #090d0e;
+            color: rgb(225, 225, 236);
+            padding: 10px;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+        main {
+            padding: 20px;
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .section {
+            margin-bottom: 30px;
+            border-bottom: 2px solid #ccc;
+            padding-bottom: 20px;
+        }
+        .section:last-child {
+            border-bottom: none;
+        }
+        .section h2 {
+            color: #0c0c0f;
+            font-size: 1.8em;
+            margin-bottom: 10px;
+        }
+        .section p {
+            line-height: 1.6;
+        }
+        .section img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #1f1f25;
+            color: white;
+        }
+        footer p {
+            margin: 0;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .icon-menu{
+            margin: 40px 50px;
+            position: relative;
+            z-index: 10;
+        }
+        .icon-menu img{
+            vertical-align: top;
+            width: 40px;
+            cursor: pointer;
+        }
+        /*Estilos para el contenedor del menu*/
+        .cont-menu{
+            background-color: rgb(42,42,42);
+            box-shadow: 2px 0px 5px 2px rgb(66,66,66);
+            width: 400px;
+            height: 100vh; 
+            position: absolute;
+            top: 0;
+            left: 0;
+            transition: all .5s ease;
+        }
+
+
+
+        /*Estilos para el listado del menu*/
+        .cont-menu ul{
+            padding: 100px 0px 20px 0px;
+            list-style:none;
+        }
+
+
+        .cont-menu ul li{
+            color: white;
+            display:block;
+            font-size: 25px;
+            text-decoration: none;
+            padding: 10px 50px;
+            cursor: pointer;
+        }
+
+
+        .cont-menu ul li:hover{
+            background-color: rgb(228, 228, 228);
+            color: rgb(42,42,42);
+        }
+        body{
+            background-image: url(bg.jpg);
+            background-position: center center;
+            background-position: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+    </style>
+</head>
+<body>
+    <div class="icon-menu">
+        <img src="herramienta.jpg" alt="icono-menu"
+    ></div>
+     <div class="icon-menu active" id="icono-menu">
+                <ul>
+                    <li><a href="Presentacion.html">Presentacion</a></li>
+                    <li><a href="Mantenimiento externo.html">Mantenimiento externo</a></li>
+                    <li><a href="Mantenimiento del Teclado y Mause.html">Mantenimiento externo 1.1</a></li>
+                    <li><a href="Mantenimiento interno.html">Mantenimiento interno</a></li>
+               </ul>
+            </div>
+     </div>
+    <header>
+        <h1>MANTENIMIENTO CORRECTIVO</h1>
+    </header>
+    <main>
+        <section id="MANTENIMIENTO" class="section">
+            <p><h2>¿QUE ES EL MANTENIMIENTO CORRECTIVO?</p>
+                <p></h2></p>
+            <h2></h2>
+            <img src="pregunta.jpg" alt="pregunta" width="200" height="200">
+            <p>El mantenimiento correctivo es un tipo de mantenimiento realizado por los técnicos para corregir un mal funcionamiento de equipos, maquinarias y sistemas. Su objetivo es restablecer el buen estado de funcionamiento y el nivel de rendimiento especificado de los activos de la empresa. El mantenimiento correctivo se denomina a veces mantenimiento reactivo porque se pone en marcha cuando ya se ha producido un fallo en la máquina..</p>
+        </section>
+        <section id="MANTENIMIENTO" class="section">
+            <h2>¿COMO HACER UN MANTENIMIENTO CORRECTIVO?</h2>
+            <img src="2da.jpg" alt="" width="200" height="200">
+            <p>Este mantenimiento se realiza luego de que ocurra un fallo o avería en el equipo que por su naturaleza no pueden planificarse en el tiempo 
+               estas acciones pueden incluir reparaciones, reemplazo de piezas, ajustes o recalibración. En algunos casos, puede ser necesario detener temporalmente las operaciones para llevar a cabo el mantenimiento correctivo
+            </p>
+        </section>
+        <section id="MANTENIMIENTO" class="section">
+            <h2>EJEMPLOS DE MATENIMIENTOS CORRECTIVOS</h2>
+            <img src="3ra,jpg.jpg" alt="" width="200" height="200">
+            <p>Los procedimientos de mantenimiento correctivo de computadoras varían según el equipo, los recursos asignados y los requisitos de la empresa, entre otros factores. Por ejemplo, las máquinas que utilizan tecnología moderna pueden reducir el tiempo que se tarda en diagnosticar un problema y disminuir el coste de la reparación, manteniendo los tiempos de funcionamiento. A continuación se presenta un proceso general de pasos de mantenimiento correctivo de una computadora para ayudar a los gestores y técnicos a empezar:</p>
+        </section>
+        <section id="EJEMPLO" class="section">
+        <h2>Paso 1: Estar al tanto de un mal funcionamiento detectado en el sistema</h2>
+            <img src="4rta.jpg" alt="" width="200" height="200">
+            <p>Una vez detectado, el fallo de la máquina debe ser confirmado por los técnicos in situ. Si se demuestra que no se ha encontrado ningún fallo, el sistema suele volver a funcionar. Sin embargo, si se confirma que se ha producido una avería, deben tomarse medidas de mantenimiento correctivo. Normalmente, antes de llevar a cabo las tareas de mantenimiento correctivo de una computadora también se debe rellenar un informe de fallos.</p>
+        <section id="EJEMPLO 2" class="section">
+            <h2>Paso 2: Localizar el defecto en un equipo específico del sistema</h2>
+            <img src="5ta.jpg" alt="" width="200" height="200">
+            <p>La localización de averías, a veces denominada aislamiento de averías, es el proceso de determinar la ubicación de una avería en la medida necesaria para efectuar la reparación. En el contexto del mantenimiento correctivo, es el acto de señalar el defecto a un equipo específico dentro del sistema. Los técnicos tienen que identificar en qué equipo de todo el sistema se produjo realmente el fallo</p>
+        </section>
+        <section id="EJEMPLO 3" class="section">
+            <h2>Paso 3: Diagnosticar el problema de un componente concreto del equipo</h2>
+            <img src="6ta.jpg" alt="" width="200" height="200">
+            <p>Una vez identificada exactamente la avería, se procede al diagnóstico de la pieza defectuosa en el equipo. Para determinar la causa de la avería se suelen utilizar determinados equipos, programas informáticos u otros medios documentados. En la mayoría de las máquinas, una capacidad de prueba integrada con componentes de hardware y/o software existentes puede ayudar a diagnosticar el problema de una pieza defectuosa.</p>
+        </section>
+        <section id="EJEMPLO 4" class="section">
+            <h2>Paso 4: Reparar o sustituir la pieza o elemento defectuoso del equipo</h2>
+            <img src="7ma.jpg" alt="" width="200" height="200">
+            <p>En el proceso de mantenimiento correctivo, es cuando los técnicos aplican correcciones como la reparación o la sustitución de piezas de la máquina, entre otras acciones de mantenimiento correctivo. Este paso también puede denominarse “corrección de fallos”, en el que se realizan tareas de mantenimiento para rectificar el mal funcionamiento. Las medidas básicas de mantenibilidad, como el tiempo medio de reparación o el tiempo de mantenimiento correctivo, suelen incluir este paso.</p>
+        </section>
+        <section id="EJEMPLO 5" class="section">
+            <h2>Paso 5: Alinear y calibrar la pieza reparada o nueva en relación con el sistema</h2>
+            <img src="8tva.jpg" alt="" width="200" height="200">
+            <p>Después de corregir el elemento defectuoso, suelen seguir la alineación y la calibración, que marcan el inicio de la comprobación, o la serie de pruebas del elemento para determinar su estado o condición. Es crucial realizar los ajustes necesarios cuando se restablece cualquier elemento a una operación específica. Además, para eliminar las desviaciones es necesario comparar un aparato de medición con un patrón establecido y realizar una alineación posterior.</p>
+        </section>
+        <section id="EJEMPLO 6" class="section">
+            <h2>Paso 6: Limpiar y lubricar el equipo como corresponde</h2>
+            <img src="9na.jpg" alt="" width="200" height="200">
+            <p>Después de la calibración, se suele realizar un control de la contaminación y la lubricación para ayudar a mantener el artículo en buenas condiciones de funcionamiento. Es fundamental utilizar un lubricante limpio y en la cantidad adecuada. La limpieza a fondo de los equipos y sus componentes no sólo puede facilitar la detección de posibles problemas y prolongar su vida útil, sino que también puede contribuir a mejorar la fiabilidad y reducir los costes.</p>
+        </section>
+        <section id="EJEMPLO 7" class="section">
+            <h2>Paso 7: Validar el rendimiento antes de devolver el sistema al servicio</h2>
+            <img src="10ma.jpg" alt="" width="200" height="200">
+            <p>Por último, hay que realizar pruebas para comprobar que el rendimiento del artículo ha alcanzado su estado especificado. Este paso completa la comprobación y la muestra general de un proceso de mantenimiento correctivo. Si los resultados revelan que el elemento en relación con el equipo funciona satisfactoriamente, entonces el sistema puede volver al servicio y las operaciones comerciales pueden reanudarse.</p>
+        </section>
+        <center><iframe width="500" height="308" src="https://www.youtube.com/embed/lFZ_Q71ROtY" title="Mantenimiento Correctivo de un computador" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></center>
+        <b>Califique el tutorial</b>
+        <form action="registrardatos.php" method="post">
+        Ingrese su nombre:
+        <input type="text" name="nombre" size="20">
+        <br>
+        Comentarios:<br>
+        <textarea name="comentarios" rows="5" cols="60">Por favor ingrese aquí sus comentarios</textarea>
+        <hr>
+        <b>Calificacion</b><br>
+        <form action="jpalate14@gmail.com" method="post"
+        enctype="text/plain" name="Fascinante"> Fascinante <input type="radio" name="calificacion checked"
+        value="Promedio" checked>Promedio
+        <input type="radio" name="Malo checked"
+        value="Malo">Malo
+        </form>
+        <hr>
+        <b>Envie su respuesta</b><br>
+        <form action="mailto:boton@gmail.com" method="post"
+        enctype="text/plain" name="imagen">
+        <input type="image" name="boton"
+        src="enviar.jpg" width="90" height="95" hspace="10" align="middle">
+        </form>
+        <style>
+            .nav-container {
+                display: flex;
+                justify-content: space-between;
+            }
+        </style>   
+    </main>
+    <footer>
+    </footer>
+</html>
